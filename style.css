@@ -4,6 +4,7 @@ body {
     background: url(./img/bg.gif);
     background-size: cover;
     background-repeat: no-repeat;
+                                                
 }
 
 .overlay {
@@ -19,6 +20,7 @@ body {
 
 input.transparent-input{
     background-color:rgba(0,0,0,0) !important;
+    font-family: 'Axiforma', sans-serif;
  }
 
  .col-md-6 {
@@ -30,4 +32,9 @@ input.transparent-input{
 
 .form-control::placeholder{
     color: #fff;
+    font-family: 'Axiforma', sans-serif;
+}
+
+#calc_btn, #results {
+    font-family: 'Axiforma', sans-serif;
 }
