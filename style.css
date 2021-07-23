@@ -1,0 +1,31 @@
+body {
+    background: url(./img/bg.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    position: relative;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    height: 100vh;
+}
+
+input.transparent-input{
+    background-color:rgba(0,0,0,0) !important;
+ }
+
+ .col-md-6 {
+     margin-top: 10%;
+     border: 1px solid silver;
+ }
+
+
+
+.form-control::placeholder{
+    color: #fff;
+}
