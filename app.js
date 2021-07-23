@@ -40,7 +40,7 @@ document.querySelector('#love-form').addEventListener('submit', function(e){
     if (randomNumber > 70) {
         loveScore.innerHTML = `The love rate of ${yourNameValue} and ${yourCrushNameValue} is ${randomNumber}%, Your relationship would be match made in heaven!❤💕💑`;  
     } else if(randomNumber > 30 && randomNumber <= 70 ) {
-        loveScore.innerHTML = `The love rate of ${yourNameValue} and ${yourCrushNameValue} is ${randomNumber}%, You would match better but your relation would be shaking🤪❤`;
+        loveScore.innerHTML = `The love rate of ${yourNameValue} and ${yourCrushNameValue} is ${randomNumber}%, You would match better but your relationship would be shaking🤪❤`;
     }else{
         loveScore.innerHTML = `The love rate of ${yourNameValue} and ${yourCrushNameValue} is ${randomNumber}%, You would match like water and oil🤣😂`;
     }
