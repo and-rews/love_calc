@@ -45,9 +45,17 @@ document.querySelector('#love-form').addEventListener('submit', function(e){
         loveScore.innerHTML = `The love rate of ${yourNameValue} and ${yourCrushNameValue} is ${randomNumber}%, You would match like water and oil🤣😂`;
     }
       
-      calcBtn.style.display = 'none';
+      clearFields();
       
   }
+
+function clearFields(){
+  const yourName = document.querySelector('#your_name');
+  const yourCrushName = document.querySelector('#your_crush_name');
+  
+  yourName.value = '';
+  yourCrushName.value = '';
+}
 
   
 
